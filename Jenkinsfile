@@ -11,6 +11,7 @@ pipeline {
   environment {
     APP_NAME = "${env.SERVICE}"
   }
+  //test
   stages {
     stage('Increase version number') {
       steps {
